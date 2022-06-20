@@ -2,8 +2,7 @@
     "name": "EP.U3D.LIBRARY.SCENE",
     "rootNamespace": "",
     "references": [
-        "EP.U3D.LIBRARY.BASE",
-        "EP.U3D.LIBRARY.LUA"
+        "EP.U3D.LIBRARY.BASE"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
