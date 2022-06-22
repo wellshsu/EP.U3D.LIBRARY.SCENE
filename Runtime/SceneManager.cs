@@ -12,7 +12,7 @@ using System;
 
 namespace EP.U3D.LIBRARY.SCENE
 {
-    public static class SceneManager
+    public class SceneManager
     {
         public delegate void SwapDelegate(Scene last, Scene current);
         public static Scene Last;
