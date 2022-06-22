@@ -14,10 +14,11 @@ namespace EP.U3D.LIBRARY.SCENE
 {
     public static class SceneManager
     {
+        public delegate void SwapDelegate(Scene last, Scene current);
         public static Scene Last;
         public static Scene Current;
         public static Scene Next;
-        public static event Action<Scene, Scene> OnSwap;
+        public static event SwapDelegate OnSwap;
 
         public static void Update()
         {
